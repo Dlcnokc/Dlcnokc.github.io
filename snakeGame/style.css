@@ -1,0 +1,7 @@
+body {
+  transition: 0.1s;
+}
+
+canvas {
+    display: none;
+  }
