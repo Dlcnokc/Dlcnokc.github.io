@@ -1,266 +1,299 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: "Roboto", sans-serif;
-    transition: white .5s;
-    transition: 0.3s;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  transition: white 0.5s;
+  transition: 0.1s;
 }
 
 .topBar {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 50px;
-    background-color: black;
-    position: fixed;
-    z-index: 1;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  position: fixed;
+  z-index: 1;
 }
 
 .logoContainer {
-    margin: 0;
-    padding: 0;
-    position: relative;
-    left: 1%;
-    top: 50%;
-    transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    width: 75px;
-    float: left;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 1%;
+  top: 50%;
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  width: 3vw;
+  float: left;
 }
 
 .logoImage {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: auto;
-    cursor: pointer;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  cursor: pointer;
 }
 
 .navBar {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    background-color: rgba(88,89,91, 0.95);
-    overflow-x: hidden;
-    transition: 0.2s;
-    padding-top: 60px;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: rgba(88, 89, 91, 0.95);
+  overflow-x: hidden;
+  transition: 0.2s;
+  padding-top: 60px;
 }
 
 .navBar a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 35px;
-    color: white;
-    display: block;
-    transition: 0.3s;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 35px;
+  color: white;
+  display: block;
+  transition: 0.2s;
 }
 
 .navBar a:hover {
-    color: #ba0000;
+  color: #ba0000;
 }
 
 .closeButton {
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-size: 36px;
-    margin-left: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 36px;
+  margin-left: 0;
 }
 
 .menuBar {
-    padding: 0;
-    margin: 0;
-    font-size: 40px;
-    cursor: pointer;
-    color: white;
-    position: absolute;
-    right: 20px;
-    line-height: 50px;
-    transition: 0.3s;
+  padding: 0;
+  margin: 0;
+  font-size: 40px;
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  right: 20px;
+  line-height: 50px;
+  transition: 0.2s;
 }
 
 .mainContent {
-    margin: 0;
-    padding: 0;
-    background-color: white;
-    width: 100%;
-    height: auto;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  width: 100%;
+  height: auto;
 }
 
 .section1 {
-    margin: 0;
-    padding: 0;
-    padding-top: 50px;
-    width: 100%;
-    height: 50vw;
+  margin: 0;
+  padding: 0;
+  padding-top: 50px;
+  width: 100%;
+  height: 50vw;
+  background-image: url(stockImages/electrician_22.jpg);
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(black, transparent, white);
+}
+
+.logoDiv {
+  padding: 0;
+  padding-left: 2vw;
+  padding-top: 5vw;
+  margin: 0;
+  width: 40%;
 }
 
 .bigLogo {
-    background-color: transparent;
-    width: 50%;
-    position: relative;
-    top: 12.5vw;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%,-50%);
-    z-index: 0;
-}
-
-.content1 {
-    padding: 2vw;
-    background-color: transparent;
-    width: 50%;
-    height: auto;
-    position: relative;
-    top: 12vw;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%,-50%);
-    box-shadow: 0 4px 8px 0 rgba(186,0,0,0.2), 0 6px 20px 0 rgba(186,0,0,0.19);
-    border-radius: 5px;
-    color: black;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  width: 100%;
 }
 
 .header1 {
-    width: 100%;
-    text-align: center;
-    font-size: 4vw;
-    letter-spacing: 2px;
-    margin-bottom: 0;
-    margin-top: 0;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-size: 4vw;
+  color: #ba0000;
 }
 
 .phoneNum {
-    margin-top: 0;
-    margin-bottom: 0;
-    width: 100%;
-    float: left;
-    text-align: center;
-    font-size: 3vw;
-    font-weight: bold;
+  padding: 0;
+  margin: 0;
+  font-size: 2vw;
+  text-align: center;
 }
 
 .moreButton {
-    margin-top: 1vw;
-    width: 40%;
-    position: relative;
-    left: 30%;
-    color: black;
-    text-align: center;
-    font-size: 3vw;
-    border-radius: 0.5vw;
-    border: none;
-    background-color: white;
-    opacity: 0.8;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transition: 0.3s;
+  margin-top: 1vw;
+  width: 50%;
+  color: black;
+  text-align: center;
+  font-size: 3vw;
+  border-radius: 0.5vw;
+  border: none;
+  background-color: white;
+  opacity: 0.8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.1s;
 }
 
 .moreButton:hover {
-    background-color: #ba0000; 
-    box-shadow: 0 10px 8px 0 rgba(186,0,0,0.2), 0 6px 20px 0 rgba(186,0,0,0.19);
-    cursor: pointer;
-    color: white;
-    scale: 1.1;
+  background-color: #ba0000;
+  box-shadow: 0 10px 8px 0 rgba(186, 0, 0, 0.2),
+    0 6px 20px 0 rgba(186, 0, 0, 0.19);
+  cursor: pointer;
+  color: white;
+  scale: 1.1;
+}
+
+.section2 {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  width: 100%;
 }
 
 .cardContainer {
-    margin: 0;
-    padding: 0;
-    padding-top: 4vw;
-    padding-bottom: 12vw;
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: stretch;
+  margin: 0;
+  margin-left: 5%;
+  padding: 0;
+  padding-top: 4vw;
+  padding-bottom: 12vw;
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
 }
 
 .card {
-    margin: 0;
-    padding: 0;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 0.5vw;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 0.5vw;
 }
 
 .cardParagraph {
-    width: 20vw;
-    font-size: 1vw;
-    text-align: center;
+  width: 20vw;
+  font-size: 1vw;
+  text-align: center;
 }
 
 .cardImage {
-    width: 20vw;
+  width: 20vw;
 }
 
 .cardButton {
-    color: black;
-    width: 60%;
-    margin-left: 20%;
-    margin-bottom: 1vw;
-    text-align: center;
-    font-size: 2vw;
-    border-radius: 0.5vw;
-    border: none;
-    background-color: white;
-    opacity: 0.8;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transition: 0.3s;
+  color: black;
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 1vw;
+  text-align: center;
+  font-size: 2vw;
+  border-radius: 0.5vw;
+  border: none;
+  background-color: white;
+  opacity: 0.8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.1s;
 }
 
 .cardButton:hover {
-    cursor: pointer;
-    scale: 1.1;
-    box-shadow: 0 8px 8px 0 rgba(186,0,0,0.2), 0 6px 20px 0 rgba(186,0,0,0.19);
+  cursor: pointer;
+  scale: 1.1;
+  box-shadow: 0 8px 8px 0 rgba(186, 0, 0, 0.2),
+    0 6px 20px 0 rgba(186, 0, 0, 0.19);
+}
+
+.section3 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  background-image: linear-gradient(white, rgb(255, 180, 0));
+}
+
+.section3Container {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 15vw;
+  padding-top: 15vw;
+  width: 100%;
+  height: 100%;
+  background-image: url(stockImages/electrician_19.png);
+  background-size: cover;
+  background-position: bottom;
 }
 
 .aboutContainer {
-    margin: 0;
-    margin-left: 10%;
-    margin-bottom: 15vw;
-    padding: 0;
-    width: 80%;
-    height: auto;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0;
+  margin-left: 20%;
+  padding: 0;
+  width: 60%;
+  height: auto;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-around;
+}
+
+.aboutImageContainer {
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  height: auto;
+  float: left;
 }
 
 .aboutImage {
-    margin: 0;
-    padding: 0;
-    width: 50%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5vw;
 }
 
 .aboutContent {
-    background-color: transparent;
-    width: 50%;
-    float: right;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 50%;
+  float: right;
 }
 
 .aboutHeader {
-    margin: 0;
-    padding: 0;
-    margin-left: 1vw;
-    margin-top: 1vw;
-    font-size: 4vw;
+  margin: 0;
+  padding: 0;
+  margin-left: 1vw;
+  font-size: 4vw;
 }
 
 .aboutParagraph {
-    margin: 0;
-    padding: 0;
-    margin-left: 1vw;
-    margin-top: 1vw;
-    font-size: 2vw;
+  margin: 0;
+  padding: 0;
+  margin-left: 1vw;
+  margin-top: 1vw;
+  font-size: 1.5vw;
 }
 
 .footer {
-    margin: 0;
-    padding: 0;
-    background-color: #58595B;
-    width: 100%;
-    height: 15vw;
+  margin: 0;
+  padding: 0;
+  background-color: #58595b;
+  width: 100%;
+  height: 15vw;
 }
